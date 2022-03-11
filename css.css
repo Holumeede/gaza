@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./img/Frame.png");
+    background-repeat: no-repeat;
+    background-size: 943px, auto;
+    /* justify-content: space-around; */
+}
+
+
+
+
+header {
+    font-size: 20px;
+    margin: 30px 40px;
+    font-weight: 400;
+}
+
+header h1 {
+    color: white;
+}
+
+header span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+/* .title {
+    top: 40%;
+    left: 55%;
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(-5%, -10%);
+    color: #000;
+} */
+
+.login   {
+    /* border: 1px solid black; */
+    width: 370px;
+    height: auto;
+    margin-left: 600px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.login h2 {
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+form {
+    /* max-width: 100%;
+    width: 370px; */
+    /* margin: auto; */
+    padding: 35px;
+    background-color: var(--colour-white);
+    color: #000000;
+    box-shadow: 0px 0px 27.5218px 1.89806px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+form button {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 3.79612px 3.79612px rgba(0, 0, 0, 0.11);
+    border-radius: 5px;
+    width: 300px;
+    height: 45px;
+    background-color: white;
+    border-color: rgba(160, 183, 241, 0.57);
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+form button a {
+    text-decoration: none;
+    color: var(--colour-blue);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+form button a:hover {
+    text-decoration: underline;
+}
+
+form input {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 3.79612px 3.79612px rgba(0, 0, 0, 0.11);
+    border-radius: 5px;
+    width: 300px;
+    height: 45px;
+    background-color: white;
+    border: none;
+    border: 1px solid rgba(7, 56, 177, 0.34);
+}
+
+form p {
+    color: gray;
+    text-align: center;
+}
+
+.footer {
+    width: 370px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    margin-left: 600px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    /* border: 1px solid pink; */
+}
+
+.footer button {
+    width: 300px;
+    height: 45px;
+    margin-left: 10px;
+    background-color: blue;
+    border-radius: 5px;
+    box-shadow: 0px 3.79612px 3.79612px rgba(0, 0, 0, 0.11);
+    border-color: blue;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.footer p {
+    color: #999;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.footer p span {
+    color: blue;
+}
+
+.imgCircle {
+    width: 20px;
+    height: 20px;
+    display: block;   
+    /* align-items: center;
+    justify-content: center; */
+    margin-top: -650px;
+    margin-left: 930px;
+}
+
+@media only screen and (max-width: 540px){
+
+body {
+        background-image: url(./img/mobile.png);
+        background-size: 300px, auto;
+        box-sizing: border-box;
+    }
+
+.login {
+    width: 270px;
+    display: block;
+    height: auto;
+    color:#000;
+    background-color: #fff;
+    top: 110px;
+    left: -590px;
+}
+
+.form {
+    padding: 25px;
+
+}
+
+form button {
+    width: 200px;
+    height: 45px;
+}
+
+form input {
+    width: 200px;
+}
+
+.footer {
+    margin-left: 10px;
+    width: 250px;
+    margin-top: 130px;
+}
+
+.footer button {
+    width: 200px;
+    
+}
+
+ }
+ 
+ @media only screen and (max-width: 360px) {
+     body {
+         background-size: 362px;
+     }
+ 
+     .login-container {
+         width: 70%;
+         margin-left: 53px;
+     }
+ 
+     .login-form button {
+         width: 188px;
+     }
+ 
+     header {
+         font-size: 28px;
+     }
+ 
+     header h1 {
+         margin-top: 145px;
+         margin-left: 24px;
+         font-size: 22px;
+     }
+ 
+     .second-part button {
+         width: 212px;
+     }
+ 
+     .second-part {
+         margin-left: -7px;
+     }
+ 
+     .form-group label {
+         font-size: 13px;
+     }
+ 
+     .login-form input {
+         font-size: 13px;
+     }
+ 
+     .login-form button a {
+         margin-left: 1px;
+     }
+ }
